@@ -8,6 +8,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: "Bookmarks",
   description: "Your saved interview questions for revision.",
+  robots: { index: false, follow: false },
 };
 
 export default async function BookmarksPage() {

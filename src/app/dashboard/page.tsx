@@ -10,6 +10,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: "Dashboard",
   description: "Your interview prep progress, streak, bookmarks, and recent activity.",
+  robots: { index: false, follow: false },
 };
 
 export default async function DashboardPage() {

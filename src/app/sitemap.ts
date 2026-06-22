@@ -18,10 +18,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/categories",
     "/roadmaps",
     "/plans",
-    "/daily",
-    "/random",
-    "/bookmarks",
-    "/dashboard",
   ].map((p) => ({ url: siteUrl(p), lastModified: now, changeFrequency: "weekly", priority: 0.7 }));
 
   return [

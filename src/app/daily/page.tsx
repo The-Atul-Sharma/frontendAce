@@ -9,6 +9,7 @@ export const revalidate = 3600; // 1 hour, to ensure it updates close to midnigh
 export const metadata: Metadata = {
   title: "Daily Challenge",
   description: "One frontend interview question, fresh every day. Build a streak.",
+  robots: { index: false, follow: false },
 };
 
 /**

@@ -8,6 +8,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: "Random Interview Mode",
   description: "Five random questions across categories. Simulate a frontend interview round.",
+  robots: { index: false, follow: false },
 };
 
 export default async function RandomPage() {
